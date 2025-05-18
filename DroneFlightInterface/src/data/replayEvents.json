@@ -1,0 +1,44 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "timestamp": "2024-03-20T10:00:00Z",
+      "type": "start",
+      "droneId": "D3",
+      "coordinates": [21.4275, 42.0027],
+      "description": "Drone D3 started mission"
+    },
+    {
+      "id": 2,
+      "timestamp": "2024-03-20T10:05:00Z",
+      "type": "waypoint",
+      "droneId": "D3",
+      "coordinates": [21.43, 42.003],
+      "description": "Drone D3 reached first waypoint"
+    },
+    {
+      "id": 3,
+      "timestamp": "2024-03-20T10:10:00Z",
+      "type": "delivery",
+      "droneId": "D3",
+      "coordinates": [21.4325, 42.004],
+      "description": "Drone D3 delivered medical supplies to Station S2"
+    }
+  ],
+  "route": {
+    "droneId": "D3",
+    "coordinates": [
+      [21.4275, 42.0027],
+      [21.428, 42.0028],
+      [21.4285, 42.0029],
+      [21.429, 42.0029],
+      [21.4295, 42.003],
+      [21.43, 42.003],
+      [21.4305, 42.0032],
+      [21.431, 42.0034],
+      [21.4315, 42.0036],
+      [21.432, 42.0038],
+      [21.4325, 42.004]
+    ]
+  }
+}

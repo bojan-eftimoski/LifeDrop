@@ -1,0 +1,28 @@
+[
+  {
+    "id": "WB23",
+    "lat": 41.6001,
+    "lon": 21.681,
+    "lastPing": "2025-05-17T11:44:00Z",
+    "userData": {
+      "name": "Elena Petrov",
+      "age": 28,
+      "bloodType": "O+",
+      "allergies": ["Penicillin"],
+      "medicalNotes": "Mild asthma. No known surgeries."
+    }
+  },
+  {
+    "id": "WB77",
+    "lat": 41.5942,
+    "lon": 21.6754,
+    "lastPing": "2025-05-17T11:30:00Z",
+    "userData": {
+      "name": "Marjan Ilioski",
+      "age": 34,
+      "bloodType": "A−",
+      "allergies": [],
+      "medicalNotes": "Endurance runner. Heart monitor device embedded."
+    }
+  }
+]
