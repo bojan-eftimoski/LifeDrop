@@ -2,6 +2,14 @@ import numpy as np
 import rasterio
 import heapq
 import matplotlib.pyplot as plt
+from dotenv import load_dotenv
+import os
+load_dotenv()
+
+accuweather_key = os.getenv("ACCUWEATHER_API_KEY")
+tomorrow_key = os.getenv("TOMORROW_API_KEY")
+onecall_key = os.getenv("ONECALL_API_KEY")
+
 velocity=15
 lpixel=47
 altitude_velocity=2.5
@@ -16,6 +24,7 @@ x=694
 y=1297
 lat=46.431356
 lon=13.938543
+
 #Kapacitet 4416
 #
 
@@ -120,7 +129,10 @@ def astar(dem, start, goal, dx=1.0, wind_vector=np.array([0, 0])):
                         heapq.heappush(frontier, (priority, next_node))
                         came_from[next_node] = current
     return came_from, cost_so_far
-
+def requests():
+    return (0)
+def cdѕapi():
+    return (0)
 def reconstruct_path(came_from, start, goal):
     current = goal
     path = [current]
