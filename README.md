@@ -35,15 +35,14 @@ cd lifedrop
 2. Install backend dependencies:
 
 ```bash
-cd backend
-pip install -r requirements.txt
+cd FlightPathAlgorithm
 python app.py
 ```
 
 3. Start the frontend:
 
 ```bash
-cd frontend
+cd DroneFlightInterface
 npm install
 npm run dev
 ```
@@ -51,7 +50,7 @@ npm run dev
 4. (Optional) Run mobile app (if Flutter is set up):
 
 ```bash
-cd mobile_app
+cd UserMobileApp
 flutter pub get
 flutter run
 ```
