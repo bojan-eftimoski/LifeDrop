@@ -1,10 +1,6 @@
 # LifeDrop - Hardware Overview
 
-**LifeDrop** is a satellite-powered emergency delivery system designed to provide first-aid medical kits to remote and hard-to-reach locations. Our autonomous drone and sensor ecosystem is designed for hikers, national park explorers, and mountaineers who may face critical delays in traditional emergency response.
-
----
-
-## 🔧 Hardware Components
+## Components
 
 ### 1. **Arduino Uno**
 
@@ -44,7 +40,7 @@
 
 ---
 
-## 🛰️ Transmission Format
+## Transmission Format
 
 * Coordinates are encoded as ASCII strings, one character per byte.
 * Payload: `Lat (11 bytes) + Lon (11 bytes) + Signal Byte (1 byte)` = **23 bytes**.
@@ -52,7 +48,7 @@
 
 ---
 
-## 🔌 Wiring Summary
+## Wiring Summary
 
 | Component    | Pin/Interface           |
 | ------------ | ----------------------- |
@@ -65,7 +61,7 @@
 
 ---
 
-## 📦 Power Requirements
+## Power Requirements
 
 * 5V regulated power for Arduino Uno
 * GNSS and KIM1 powered via 3.3V or 5V logic-safe regulators
@@ -73,19 +69,17 @@
 
 ---
 
-## 📁 File Structure
+## File Structure
 
 * `LifeDrop.ino` — Main firmware for Arduino Uno
 * `KIM_Arduino_Library` — Driver for Kinéis satellite modem
 
 ---
 
-## 🧪 Testing
+## Testing
 
 * Tested in offline environments with live GNSS input
 * OLED confirms GNSS fix and payload formatting
 * KIM1 module validated via AT command debug log
 
 ---
-
-For detailed firmware and PCB schematics, check the `/firmware` and `/hardware` folders.
