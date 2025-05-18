@@ -1,0 +1,68 @@
+[
+  {
+    "id": "D1",
+    "callsign": "Eagle-1",
+    "battery": 87,
+    "lat": 46.401,
+    "lon": 13.851,
+    "status": "idle",
+    "station": "S1",
+    "iconUrl": "/drone-icon.svg",
+    "updatedAt": "2025-04-17T11:27:36Z"
+  },
+  {
+    "id": "D2",
+    "callsign": "Eagle-2",
+    "battery": 63,
+    "lat": 46.402,
+    "lon": 13.851,
+    "status": "en-route",
+    "station": "S1",
+    "iconUrl": "/drone-icon.svg",
+    "updatedAt": "2025-05-15T11:43:23Z"
+  },
+  {
+    "id": "D3",
+    "callsign": "Eagle-3",
+    "battery": 95,
+    "lat": 46.37,
+    "lon": 13.831,
+    "status": "en-route",
+    "station": "S2",
+    "iconUrl": "/drone-icon.svg",
+    "updatedAt": "2025-05-17T11:00:42Z"
+  },
+  {
+    "id": "D4",
+    "callsign": "Eagle-4",
+    "battery": 74,
+    "lat": 46.372,
+    "lon": 13.832,
+    "status": "charging",
+    "station": "S2",
+    "iconUrl": "/drone-icon.svg",
+    "updatedAt": "2025-05-17T10:50:10Z"
+  },
+  {
+    "id": "D5",
+    "callsign": "Eagle-5",
+    "battery": 89,
+    "lat": 46.391,
+    "lon": 13.871,
+    "status": "idle",
+    "station": "S3",
+    "iconUrl": "/drone-icon.svg",
+    "updatedAt": "2025-05-17T11:32:00Z"
+  },
+  {
+    "id": "D6",
+    "callsign": "Eagle-6",
+    "battery": 52,
+    "lat": 46.392,
+    "lon": 13.872,
+    "status": "charging",
+    "station": "S3",
+    "iconUrl": "/drone-icon.svg",
+    "updatedAt": "2025-05-16T11:50:00Z"
+  }
+]

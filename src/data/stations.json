@@ -1,0 +1,26 @@
+[
+  {
+    "id": "S1",
+    "name": "Triglav North Station",
+    "lat": 46.4,
+    "lon": 13.85,
+    "status": "online",
+    "iconUrl": "/medical-station-icon.svg"
+  },
+  {
+    "id": "S2",
+    "name": "Triglav Lake Post",
+    "lat": 46.37,
+    "lon": 13.83,
+    "status": "online",
+    "iconUrl": "/medical-station-icon.svg"
+  },
+  {
+    "id": "S3",
+    "name": "Triglav Forest Gate",
+    "lat": 46.39,
+    "lon": 13.87,
+    "status": "offline",
+    "iconUrl": "/medical-station-icon.svg"
+  }
+]
