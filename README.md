@@ -1,6 +1,6 @@
 # LifeDrop 🛰️🚁
 
-LifeDrop is a smart emergency response system built for remote and hard-to-reach areas like national parks, hiking trails, or ski slopes. It combines satellite connectivity, real-time tracking, autonomous drones, and a modular Smart First Aid Kit to deliver life-saving assistance quickly and effectively.
+LifeDrop is a smart emergency response system built for remote and hard-to-reach areas like national parks, hiking trails. It combines satellite connectivity, real-time tracking, autonomous drones, and a modular Smart First Aid Kit to deliver life-saving assistance quickly and effectively.
 
 ## 🩺 Problem It Solves
 In remote regions, delayed medical help can lead to fatal outcomes. LifeDrop addresses this by enabling hikers or adventurers to trigger a drone-assisted response even when there's no mobile reception—ensuring timely first aid delivery and communication with emergency personnel.
